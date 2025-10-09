@@ -1,0 +1,29 @@
+# Python Virtual Environment
+env/
+venv
+backend/env/
+
+# Node.js Dependencies  
+frontend/node_modules/
+node_modules/
+
+# Database file (contains data)
+db.sqlite3
+backend/db.sqlite3
+
+# Environment variables (if any)
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+
+# cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Large dataset files 
+backend/data/*.csv
+backend/data/*.xlsx
